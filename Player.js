@@ -1,7 +1,7 @@
 // import gameObject from "./gameObject.js";
 // import Wallet from "./Wallet.js"
 
-class Player extends gameObject {
+class Player extends GameObject {
     wallet = new Wallet();
     constructor(name, x, y, ctx){
         super(name, x, y);

@@ -1,4 +1,4 @@
-class gameObject {
+class GameObject {
     id = Date.now();
     constructor(name = "New Object", x, y) {
         this.name = name;
